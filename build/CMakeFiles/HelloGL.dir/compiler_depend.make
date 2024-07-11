@@ -87,7 +87,7 @@ CMakeFiles/HelloGL.dir/src/glad.c.o: /Users/lingxin/Desktop/projects/graphic/lea
   /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/KHR/khrplatform.h \
   /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glad/glad.h
 
-CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/videoBlendMode/main.cpp \
+CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o: /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/displayTest/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityVersions.h \
@@ -708,7 +708,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/typeinfo \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/utility \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/variant \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/vector \
@@ -1101,42 +1100,12 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
   /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/vec3.hpp \
   /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/vec4.hpp \
   /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/vector_relational.hpp \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/camera.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/mesh.hpp \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/model.hpp \
   /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/shader.h \
   /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/stb_image.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/video_frame.hpp \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/Compiler/poppack1.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/Compiler/pushpack1.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/Importer.hpp \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/MathFunctions.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/aabb.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/anim.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/camera.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/color4.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/color4.inl \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/config.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/defs.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/light.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/material.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/material.inl \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/matrix3x3.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/matrix3x3.inl \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/matrix4x4.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/matrix4x4.inl \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/mesh.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/metadata.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/postprocess.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/quaternion.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/quaternion.inl \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/scene.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/texture.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/types.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/vector2.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/vector2.inl \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/vector3.h \
-  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/vector3.inl \
+  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/texture.h \
+  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/utils/callback_manager.hpp \
+  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/utils/display.hpp \
+  /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/utils/screen_capture.hpp \
   /opt/homebrew/Cellar/ffmpeg/7.0.1/include/libavcodec/avcodec.h \
   /opt/homebrew/Cellar/ffmpeg/7.0.1/include/libavcodec/codec.h \
   /opt/homebrew/Cellar/ffmpeg/7.0.1/include/libavcodec/codec_desc.h \
@@ -1220,51 +1189,15 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /opt/homebrew/Cellar/ffmpeg/7.0.1/include/libavcodec/avcodec.h:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/vector3.inl:
+/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/utils/screen_capture.hpp:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/vector2.inl:
+/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/utils/display.hpp:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/quaternion.inl:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/quaternion.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/metadata.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/matrix4x4.inl:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/matrix4x4.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/matrix3x3.inl:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/matrix3x3.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/material.inl:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/material.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/light.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/defs.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/color4.inl:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/camera.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/anim.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/MathFunctions.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/Compiler/pushpack1.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/Compiler/poppack1.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/video_frame.hpp:
+/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/texture.h:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/stb_image.h:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/shader.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/camera.h:
 
 /opt/homebrew/Cellar/ffmpeg/7.0.1/include/libavutil/imgutils.h:
 
@@ -1286,8 +1219,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/vec2.hpp:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/mesh.h:
-
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/mat4x2.hpp:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/mat3x4.hpp:
@@ -1305,8 +1236,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/vector_int1_sized.hpp:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/vector_float1_precision.hpp:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/mesh.hpp:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/vector_double1.hpp:
 
@@ -1359,8 +1288,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/detail/_vectorize.hpp:
 
 /opt/homebrew/Cellar/ffmpeg/7.0.1/include/libavutil/rational.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/config.h:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/detail/compute_vector_relational.hpp:
 
@@ -1467,8 +1394,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/vector_uint1.hpp:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/vector_relational.hpp:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/vector_int3.hpp:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/vector_int1.hpp:
 
@@ -1590,12 +1515,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/vector:
 
-/opt/homebrew/Cellar/ffmpeg/7.0.1/include/libavutil/buffer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year_month.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_set:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/system_error:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/detail/type_mat2x3.hpp:
@@ -1613,8 +1532,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/streambuf:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/color4.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdint.h:
 
@@ -1710,6 +1627,8 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/move.h:
 
+/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/utils/callback_manager.hpp:
+
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/matrix_float3x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/forward.h:
@@ -1761,8 +1680,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_default_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/type_identity.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/vector3.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
@@ -1835,8 +1752,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_member_function_pointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/texture.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
 
@@ -1950,13 +1865,9 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/loader/model.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/size.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/vector2.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map:
 
@@ -2308,19 +2219,17 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/videoBlendMode/main.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/gtc/type_ptr.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year_month_day.h:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/aabb.h:
+/opt/homebrew/Cellar/ffmpeg/7.0.1/include/libavutil/buffer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year_month.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/rel_ops.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/Importer.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/weekday.h:
 
@@ -2413,6 +2322,12 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/unique.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/remove.h:
+
+/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/gtc/vec1.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/types.h:
+
+/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/displayTest/main.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
@@ -2596,8 +2511,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/types.h:
-
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/matrix_double2x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/assume_aligned.h:
@@ -2656,10 +2569,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_find_first_of.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_find_end.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_move.h:
@@ -2669,6 +2578,10 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_find_end.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/glad.c:
 
@@ -2796,8 +2709,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_none_of.h:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/scene.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/search.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/compose.h:
@@ -2906,8 +2817,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int64_t.h:
 
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/include/assimp/postprocess.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_wchar_t.h:
@@ -2985,10 +2894,6 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_function.h:
-
-/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/gtc/vec1.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/types.h:
 
 /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/KHR/khrplatform.h:
 
@@ -3135,6 +3040,8 @@ CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Deskto
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
+
+/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/include/glm/ext/vector_int3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/signal.h:
 

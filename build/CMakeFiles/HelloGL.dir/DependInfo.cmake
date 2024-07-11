@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/glad.c" "CMakeFiles/HelloGL.dir/src/glad.c.o" "gcc" "CMakeFiles/HelloGL.dir/src/glad.c.o.d"
-  "/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/videoBlendMode/main.cpp" "CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o" "gcc" "CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o.d"
+  "/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/displayTest/main.cpp" "CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o" "gcc" "CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

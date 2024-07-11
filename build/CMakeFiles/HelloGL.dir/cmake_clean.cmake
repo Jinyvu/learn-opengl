@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HelloGL.dir/src/glad.c.o"
   "CMakeFiles/HelloGL.dir/src/glad.c.o.d"
-  "CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o"
-  "CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o.d"
+  "CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o"
+  "CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o.d"
   "HelloGL"
   "HelloGL.pdb"
 )

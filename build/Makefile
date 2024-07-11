@@ -153,29 +153,29 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloGL.dir/build.make CMakeFiles/HelloGL.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
-src/test/videoBlendMode/main.o: src/test/videoBlendMode/main.cpp.o
-.PHONY : src/test/videoBlendMode/main.o
+src/test/displayTest/main.o: src/test/displayTest/main.cpp.o
+.PHONY : src/test/displayTest/main.o
 
 # target to build an object file
-src/test/videoBlendMode/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloGL.dir/build.make CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o
-.PHONY : src/test/videoBlendMode/main.cpp.o
+src/test/displayTest/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloGL.dir/build.make CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o
+.PHONY : src/test/displayTest/main.cpp.o
 
-src/test/videoBlendMode/main.i: src/test/videoBlendMode/main.cpp.i
-.PHONY : src/test/videoBlendMode/main.i
+src/test/displayTest/main.i: src/test/displayTest/main.cpp.i
+.PHONY : src/test/displayTest/main.i
 
 # target to preprocess a source file
-src/test/videoBlendMode/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloGL.dir/build.make CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.i
-.PHONY : src/test/videoBlendMode/main.cpp.i
+src/test/displayTest/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloGL.dir/build.make CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.i
+.PHONY : src/test/displayTest/main.cpp.i
 
-src/test/videoBlendMode/main.s: src/test/videoBlendMode/main.cpp.s
-.PHONY : src/test/videoBlendMode/main.s
+src/test/displayTest/main.s: src/test/displayTest/main.cpp.s
+.PHONY : src/test/displayTest/main.s
 
 # target to generate assembly for a file
-src/test/videoBlendMode/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloGL.dir/build.make CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.s
-.PHONY : src/test/videoBlendMode/main.cpp.s
+src/test/displayTest/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloGL.dir/build.make CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.s
+.PHONY : src/test/displayTest/main.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
-	@echo "... src/test/videoBlendMode/main.o"
-	@echo "... src/test/videoBlendMode/main.i"
-	@echo "... src/test/videoBlendMode/main.s"
+	@echo "... src/test/displayTest/main.o"
+	@echo "... src/test/displayTest/main.i"
+	@echo "... src/test/displayTest/main.s"
 .PHONY : help
 
 

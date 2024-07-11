@@ -83,30 +83,30 @@ CMakeFiles/HelloGL.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HelloGL.dir/src/glad.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/glad.c -o CMakeFiles/HelloGL.dir/src/glad.c.s
 
-CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: CMakeFiles/HelloGL.dir/flags.make
-CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/videoBlendMode/main.cpp
-CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o: CMakeFiles/HelloGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o -MF CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o.d -o CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o -c /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/videoBlendMode/main.cpp
+CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o: CMakeFiles/HelloGL.dir/flags.make
+CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o: /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/displayTest/main.cpp
+CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o: CMakeFiles/HelloGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o -MF CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o.d -o CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o -c /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/displayTest/main.cpp
 
-CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/videoBlendMode/main.cpp > CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.i
+CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/displayTest/main.cpp > CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.i
 
-CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/videoBlendMode/main.cpp -o CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.s
+CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/src/test/displayTest/main.cpp -o CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.s
 
 # Object files for target HelloGL
 HelloGL_OBJECTS = \
 "CMakeFiles/HelloGL.dir/src/glad.c.o" \
-"CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o"
+"CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o"
 
 # External object files for target HelloGL
 HelloGL_EXTERNAL_OBJECTS =
 
 HelloGL: CMakeFiles/HelloGL.dir/src/glad.c.o
-HelloGL: CMakeFiles/HelloGL.dir/src/test/videoBlendMode/main.cpp.o
+HelloGL: CMakeFiles/HelloGL.dir/src/test/displayTest/main.cpp.o
 HelloGL: CMakeFiles/HelloGL.dir/build.make
 HelloGL: /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/lib/libglfw.3.dylib
 HelloGL: /Users/lingxin/Desktop/projects/graphic/learnopengl/opengl-cpp-template/third_party/assimp/bin/libassimp.5.4.1.dylib
