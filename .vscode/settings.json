@@ -81,8 +81,11 @@
         "thread": "cpp",
         "unordered_set": "cpp",
         "numeric": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "print": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
-    "C_Cpp.default.compilerPath": "/opt/homebrew/opt/llvm/bin/clang++"
+    "C_Cpp.default.compilerPath": "/opt/homebrew/opt/llvm/bin/clang++",
+    "C_Cpp.autocomplete": "default",
+    "C_Cpp.intelliSenseEngine": "default"
 }

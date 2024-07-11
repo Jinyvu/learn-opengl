@@ -117,22 +117,12 @@ int main()
 
     // load textures
     // -------------
-    unsigned int floorTexture = loadTexture((RESOURCES_DIR_PATH / "textures/wood.png").c_str());
+    unsigned int floorTexture = loadTexture((RESOURCES_DIR_PATH / "textures/shoe2.png").c_str());
 
     // video texture
     unsigned int videoTex;
     glGenTextures(1, &videoTex);
-    VideoFrameLoader *videoFrameLoader = new VideoFrameLoader((RESOURCES_DIR_PATH / "videos/shoe.mp4").c_str());
-
-    // transparent vegetation locations
-    // --------------------------------
-    vector<glm::vec3>
-        windows{
-            glm::vec3(-1.5f, 0.0f, -0.48f),
-            glm::vec3(1.5f, 0.0f, 0.51f),
-            glm::vec3(0.0f, 0.0f, 0.7f),
-            glm::vec3(-0.3f, 0.0f, -2.3f),
-            glm::vec3(0.5f, 0.0f, -0.6f)};
+    VideoFrameLoader *videoFrameLoader = new VideoFrameLoader((RESOURCES_DIR_PATH / "videos/bubble.mp4").c_str());
 
     // shader configuration
     // --------------------
@@ -142,6 +132,7 @@ int main()
 
     // render loop
     // -----------
+    float sum = 0;
     while (!glfwWindowShouldClose(window))
     {
         // per-frame time logic
@@ -153,47 +144,50 @@ int main()
         // input
         // -----
         processInput(window);
-
-        // render
-        // ------
-        glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-        shader.use();
-        glm::mat4 model = glm::mat4(1.0f);
-        glm::mat4 view = camera.GetViewMatrix();
-        glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
-        shader.setMat4("view", view);
-        shader.setMat4("projection", projection);
-        shader.setMat4("model", glm::mat4(1.0f));
-        shader.setInt("texture1", 0);
-        shader.setInt("texture2", 1);
-        
-        // video
-        glBindVertexArray(planeVAO);
-        if (videoFrameLoader->extractFrame(true))
+        sum += deltaTime;
+        if (sum > 1.0 / 12)
         {
-            videoFrameLoader->displayFrame(videoTex, 1);
-            glBindTexture(GL_TEXTURE_2D, videoTex);
-        }
-        else
-        {
-            glActiveTexture(GL_TEXTURE1);
+            sum = 0;
+            // render
+            // ------
+            glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+            shader.use();
+            glm::mat4 model = glm::mat4(1.0f);
+            glm::mat4 view = camera.GetViewMatrix();
+            glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
+            shader.setMat4("view", view);
+            shader.setMat4("projection", projection);
+            shader.setMat4("model", glm::mat4(1.0f));
+            shader.setInt("texture1", 0);
+            shader.setInt("texture2", 1);
+            // video
+            glBindVertexArray(planeVAO);
+            if (videoFrameLoader->extractFrame(true))
+            {
+                videoFrameLoader->displayFrame(videoTex, 1);
+                glBindTexture(GL_TEXTURE_2D, videoTex);
+            }
+            else
+            {
+                glActiveTexture(GL_TEXTURE1);
+                glBindTexture(GL_TEXTURE_2D, floorTexture);
+            }
+
+            // floor
+            glBindVertexArray(planeVAO);
+            glActiveTexture(GL_TEXTURE0);
             glBindTexture(GL_TEXTURE_2D, floorTexture);
+
+            glDrawArrays(GL_TRIANGLES, 0, 6);
+            glBindVertexArray(0);
+
+            // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
+            // -------------------------------------------------------------------------------
+            glfwSwapBuffers(window);
+            glfwPollEvents();
         }
-
-        // floor
-        glBindVertexArray(planeVAO);
-        glActiveTexture(GL_TEXTURE0);
-        glBindTexture(GL_TEXTURE_2D, floorTexture);
-
-        glDrawArrays(GL_TRIANGLES, 0, 6);
-        glBindVertexArray(0);
-
-        // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
-        // -------------------------------------------------------------------------------
-        glfwSwapBuffers(window);
-        glfwPollEvents();
     }
 
     // optional: de-allocate all resources once they've outlived their purpose:

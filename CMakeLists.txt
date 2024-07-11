@@ -30,7 +30,7 @@ set(FFMPEG_SWSCALE_LINK ${FFMPEG_DIR}/lib/libswscale.dylib)
 set(FFMPEG_SWSCALE_LINK ${FFMPEG_DIR}/lib/libswscale.dylib)
 set(FFMPEG_AVUTIL_LINK ${FFMPEG_DIR}/lib/libavutil.dylib)
 
-set(SOURCES ${SRC_DIR}/glad.c ${SRC_DIR}/test/videoBlendMode/main.cpp)
+set(SOURCES ${SRC_DIR}/glad.c ${SRC_DIR}/test/displayTest/main.cpp)
 
 # 添加可执行文件
 add_executable(HelloGL ${SOURCES})
